@@ -1,0 +1,110 @@
+@media(max-width:500px){
+    .content_box .sub_title, .fcol_icon h3 {
+        justify-content: center;
+        text-align:center;
+    }
+    .content_box .sub_title h2 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    .footer_contact {
+        margin-top: 15px;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .logo .mob-menu i{
+        font-size:25px !important;
+    }
+    .header_row.fixed_header .mt-3 {
+        margin-top: 10px !important;
+    }
+    .header_row.fixed_header .logo, .header_row.fixed_header .main_menu {
+        padding-bottom: 10px;
+    }
+}
+@media(min-width:600px) and (max-width:760px){
+    
+}
+@media(min-width:760px) and (max-width:900px){
+    .hero_image img {
+        height: 350px !important;
+    }
+}
+@media(max-width:900px){
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero_text p br {
+        display: none;
+    }
+    .logo .mob-menu i {
+        font-size: 35px;
+        color: var(--dark-color);
+    }
+    
+    .logo .mob-menu {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        height: 40px;
+    }
+    
+    .logo .mob-menu i.close {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 70px !important;
+        line-height: 1;
+        display:none;
+    }
+    .main_menu {
+        position: fixed;
+        height: 100%;
+        background-color: #f8f9fa;
+        z-index: 10;
+        top:50px;
+        width: 200px;
+        right: 0px;
+        padding: 0px;
+        display:none;
+    }
+    
+    .main_menu ul {
+        display: block;
+    }
+    .main_menu ul li {
+        margin: 0px 0px;
+    }
+    .main_menu ul li a {
+        display: block;
+        text-align: left;
+        border-bottom: solid 1px #f1f1f1;
+        padding: 8px 20px;
+    }
+    .main_menu ul li.user_log a.theme_btn_outline, .main_menu ul li.user_log a.theme_btn {
+        text-align: center;
+        margin: 15px 20px;
+    }
+    
+    .main_menu ul li.user_log .theme_btn_outline {
+        border: solid 2px var(--primary-color);
+    }
+    .header .hero_txt_col.mt-5{
+        margin-top:0px !important;
+    }
+    .header{
+        height:100%;
+    }
+    .header .hero_image {
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .hero_image img {
+        height: 270px;
+    }
+    .card_box, .fcol {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
